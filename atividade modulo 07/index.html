@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>
+    <link rel="stylesheet" href="./main.css"/>
+</head>
+<body>
+    <div class="container">
+        <h1>
+            Formulario
+        </h1>
+        <h2>
+            Digite um numero no Campo A e em seguida <br> um numero maior no Campo B para poder continuar
+        </h2>
+        <form id="formulario">
+            <input type="number" id="campoA" required placeholder="Campo A" class="input requered"/>
+            <input type="number" id="campoB" required placeholder="Campo B" class="input requered"/>
+            <button id="submit-button" type="submit">Submit</button>
+            <p class="msg-error"></p>
+            <p class="msg-success"></p>
+        </form>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

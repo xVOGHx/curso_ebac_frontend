@@ -1,0 +1,12 @@
+.msg-error{
+    background-color:tomato;
+    color: white;
+    padding: 16px;
+    display: none;
+}
+.msg-success{
+    background-color:greenyellow;
+    color: white;
+    padding: 16px;
+    display: none;
+}
