@@ -1,0 +1,35 @@
+*{
+    background-color: grey;
+    font-family: roboto,sans-serif;
+
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 16px;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+}
+
+ul {
+    display:grid;
+    justify-content: center;
+}
+
+#tarefa{
+    background-color: #fff;
+    padding: 8px;
+    font-weight: bold;
+}
+
+#adicionar{
+    background-color: green;
+    color: #fff;
+    cursor: pointer;
+    padding: 8px;
+    font-weight: bold;
+}
