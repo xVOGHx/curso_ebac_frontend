@@ -1,0 +1,16 @@
+@use 'variaveis';
+
+*
+body{
+    max-width: 1024px;
+    background-color: variaveis.$corPrincipal;
+}
+
+li{
+    
+}
+
+img{
+    max-width: 1024px;
+    padding-bottom: 16px;
+}
